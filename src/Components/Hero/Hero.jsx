@@ -95,7 +95,7 @@ function Hero() {
 
             <div className="col-md-4 hero_ka_scnd">
             <div className="hero_k_scnd_ka_flex">
-                <img src={landing_logo}></img>
+                <img className="lnnchsuju" src={landing_logo}></img>
                 <div className="Hero_scnd_para text-center d-flex" style={{fontFamily: "Comic Sans MS", fontStyle: "normal"}}>
                     {/* <span className="green_text" style={{fontFamily: "Comic Sans MS", fontStyle: "normal"}}>Pepe</span> */}
                     <img src={Pepe} alt="" />

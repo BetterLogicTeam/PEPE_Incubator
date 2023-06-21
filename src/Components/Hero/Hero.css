@@ -6,6 +6,10 @@
   color: #ade900;
 }
 
+.hero_ka_scnd{
+  z-index: 9999;
+}
+
 .Hero_main_text {
   font-family: "Syne";
   font-style: normal;
@@ -85,6 +89,10 @@
   line-height: 28px;
   color: #ffffff;
   margin-right: 10px;
+}
+
+.lnnchsuju{
+  z-index: 9999 !important;
 }
 
 @media screen and (max-width: 600px) {

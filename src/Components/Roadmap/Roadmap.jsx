@@ -1,5 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
+import roadmap_res from "../../assets/roadmap_res.png"
 
 function Roadmap() {
   return (
@@ -9,7 +10,7 @@ function Roadmap() {
         <h1 className="Roadmap_main_div_heading">Roadmap</h1>
         <div className="container">
           <div className="row roadmap_row">
-            <div className="col-md-3">
+            <div className="col-3">
               <div className="phase_box">
                 <p className="text-white">
                   <li className="phase_box_li">
@@ -35,7 +36,7 @@ function Roadmap() {
               </div>
             </div>
 
-            <div className="col-md-3 neechval ">
+            <div className="col-3 neechval ">
             
               <div className="circle1">
                 <div className="circle2">
@@ -66,7 +67,7 @@ function Roadmap() {
               
             </div>
 
-            <div className="col-md-3">
+            <div className="col-3">
             <div className="phase_box scnd_last">
                 <p className="text-white">
                   <li className="phase_box_li">
@@ -97,7 +98,7 @@ function Roadmap() {
             </div>
 
 
-            <div className="col-md-3 neechval">
+            <div className="col-3 neechval">
             
               <div className="circle1 iska_float">
                 <div className="circle2">
@@ -122,7 +123,11 @@ function Roadmap() {
               </div>
               
             </div>
+
           </div>
+          <div className="roadmap_rseImg mt-5">
+            <img className="w-100" src={roadmap_res} alt="" />
+            </div>
         </div>
       </div>
 
@@ -133,7 +138,7 @@ function Roadmap() {
 
   
 
-<ul className="timeline">
+{/* <ul className="timeline">
 
 	<li>
 		<div className="direction-r">
@@ -227,7 +232,6 @@ function Roadmap() {
 			<div className="flag-wrapper">
             <div className="circle1 time-wrapper">
                 <div className="circle2">
-                  {/* <hr className="roadmap_hr" style={{ height: "6px" }} /> */}
                   <div className="circle3">
                     <p>Phase 4</p>
                   </div>
@@ -248,7 +252,7 @@ function Roadmap() {
 		</div>
 	</li>
   
-</ul>
+</ul> */}
 
     </div>
     </div>
