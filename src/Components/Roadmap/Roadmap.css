@@ -158,20 +158,10 @@ div {
     .roadmap_row{
         display: none !important;
     }
-
-    .phase_box_two, .phase_box{
-      padding: 20px 10px 15px 20px;
-    }
-  
-    .phase_box_li{
-      font-size: 11px;
-      font-weight: 600;
-      line-height: 12px;
-    }
 }
 
 @media (min-width: 950px) and (max-width: 10000px) {
-    .roadmap_rseImg{
+    .timeline{
         display: none !important;
     }
 }

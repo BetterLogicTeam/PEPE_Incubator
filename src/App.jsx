@@ -44,11 +44,11 @@ function App() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-              background: {
-                color: {
-                  value: "transparent",
-                },
-              },
+              // background: {
+              //   color: {
+              //     value: "transparent",
+              //   },
+              // },
               fpsLimit: 120,
               interactivity: {
                 events: {
@@ -67,8 +67,8 @@ function App() {
                     quantity: 4,
                   },
                   repulse: {
-                    distance: 200,
-                    duration: 0.4,
+                    distance: 500,
+                    duration: 0.9,
                   },
                 },
               },
@@ -101,7 +101,7 @@ function App() {
                     enable: false,
                     area: 1200,
                   },
-                  value: 20,
+                  value: 10,
                 },
                 opacity: {
                   value: 0.1,

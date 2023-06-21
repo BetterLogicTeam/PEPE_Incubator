@@ -125,9 +125,9 @@ function Roadmap() {
             </div>
 
           </div>
-          <div className="roadmap_rseImg mt-5">
+          {/* <div className="roadmap_rseImg mt-5">
             <img className="w-100" src={roadmap_res} alt="" />
-            </div>
+            </div> */}
         </div>
       </div>
 
@@ -138,7 +138,7 @@ function Roadmap() {
 
   
 
-{/* <ul className="timeline">
+<ul className="timeline">
 
 	<li>
 		<div className="direction-r">
@@ -151,14 +151,14 @@ function Roadmap() {
                 </div>
               </div>
 			</div>
-            <div className="phase_box">
+      <div className="phase_box">
                 <p className="text-white">
                   <li className="phase_box_li">
                     <ul className="phase_box_ul">
                       -Research and phase 1 development
                     </ul>
                     <ul className="phase_box_ul">-DAPP development</ul>
-                    <ul className="phase_box_ul">-Launchpad V1</ul>
+                    <ul className="phase_box_ul">-Smart Contract preparation</ul>
                     <ul className="phase_box_ul">
                       -Marketing and whitelist distribution
                     </ul>
@@ -183,10 +183,13 @@ function Roadmap() {
                 <p className="text-white">
                   <li className="phase_box_li">
                   <ul className="phase_box_ul">
-                      -Seed round sale
+                      -Dashboard development
                     </ul>
+                    <ul className="phase_box_ul">-Partnership with Binance listed project</ul>
                     <ul className="phase_box_ul">-Pre presale marketing</ul>
-                    <ul className="phase_box_ul">-Whitelist distribution</ul>
+                    <ul className="phase_box_ul">
+                      -Whitelist distribution
+                    </ul>
                     <ul className="phase_box_ul">
                       -Presale start on Pinksale
                     </ul>
@@ -214,6 +217,7 @@ function Roadmap() {
                       -Launch on DEX
                     </ul>
                     <ul className="phase_box_ul">-Post launch marketing</ul>
+                    <ul className="phase_box_ul">-V2 development</ul>
                     <ul className="phase_box_ul">-Establishing partnerships</ul>
                     <ul className="phase_box_ul">
                       -Coinmarketcap Listing
@@ -245,6 +249,7 @@ function Roadmap() {
                       -Incubating the first project and launch on Pepe Incubator launchpad
                     </ul>
                     <ul className="phase_box_ul">-Incubating 10 projects</ul>
+                    <ul className="phase_box_ul">-Buyback $PEPEINC</ul>
                     <ul className="phase_box_ul">-New roadmap</ul>
                   </li>
                 </p>
@@ -252,7 +257,7 @@ function Roadmap() {
 		</div>
 	</li>
   
-</ul> */}
+</ul>
 
     </div>
     </div>

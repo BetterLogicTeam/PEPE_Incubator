@@ -72,3 +72,8 @@
     width: 80%;
   }
 }
+
+
+#tsparticles{
+  background-color: transparent !important;
+}
