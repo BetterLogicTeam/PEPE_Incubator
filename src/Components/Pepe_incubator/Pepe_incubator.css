@@ -1,0 +1,72 @@
+.pepe_incubator_main{
+    border: 1px solid #ADE900;
+border-radius: 46px;
+padding: 20px 100px;
+}
+
+.pepe_incubator_container{
+    width: 80% !important;
+}
+
+.pepe_incubator_main_img{
+    top: -40 !important;
+}
+
+.pepe_incubator_img_scnd_div{
+    background: #ADE900;
+    padding: 20px 20px;
+    margin-bottom: -40px;
+box-shadow: 0px 0px 0px #6EC345, 0px 0px 0px #6EC345, 0px 0px 0px #6EC345, 0px 0px 0px #6EC345, 0px 0px 0px #6EC345, 0px 0px 0px #6EC345;
+border-radius: 11.3922px;
+}
+
+.pepe_incubator_img_main_div{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.pepe_incubator_main_para{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16.7715px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.pepe_incubator_main_text{
+    font-family: "Syne";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45.3086px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .pepe_incubator_main{
+        padding: 20px 20px;
+    }
+
+    .pepe_incubator_container{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .pepe_incubator_main_text{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 650px) {
+    .pepe_incubator_main_text{
+        font-size: 35px;
+    }
+}
